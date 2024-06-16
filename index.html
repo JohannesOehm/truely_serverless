@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>BMI Rechner</title>
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <form>
+    <input type="number" id="groesse" placeholder="Groesse"> in cm
+    <input type="number" id="gewicht" placeholder="Gewicht"> in kg
+    <button type="button" onclick="calculateBMI()">Berechne</button>
+  </form>
+
+  Der BMI ist <span id="bmi"></span>!
+
+  <dialog id="loading">Loading ServiceWorker</dialog>
+  <script src="main.js"></script>
+
+
+</body>
+
+</html>
